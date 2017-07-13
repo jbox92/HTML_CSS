@@ -3,30 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <title>Fuuka Fans Forever Shop</title>
-
+    <link type='text/css' href='shop.css' rel='stylesheet'>
 </head>
 <body>
-<div>
-<div>
+<div id="total">
+<div id="menu">
     <ul>
-        <li><a href="#">Recommendations</a></li>
-        <li><a href="#">Basket</a></li>
-        <li><a href="#">Help</a></li>
+        <li id="item1"><a href="#">Recommendations</a></li>
+        <li id="item2"><a href="#">Basket</a></li>
+        <li id="item3"><a href="#">Help</a></li>
     </ul>
 </div>
 <div>
-    <div>
+    <div id="logo">
         <a href="#"><img src="../images/fuuka.jpg"></a>
     </div>
     <div>
-        <div>Fuuka Fans Forever</div>
+        <div id="title">Fuuka Fans Forever</div>
 
     </div>
     
 </div>
 
-<div>
-    <div>
+<div id="leftMenu">
+    <div class="menuPart">
+        <input type="checkbox" class="checkArrow" id="part1" checked="checked"/>
+        <label for="part1"></label>
         <span>Departments</span>
         <ul>
             <li>
@@ -66,7 +68,9 @@
         </ul>
     </div>
 
-    <div>
+    <div class="menuPart">
+        <input type="checkbox" class="checkArrow" id="part2"/>
+        <label for="part2"></label>
         <span>Release Date</span>
         <ul>
             <li>
@@ -87,7 +91,9 @@
         </ul>
     </div>
 
-    <div>
+    <div class="menuPart">
+        <input type="checkbox" class="checkArrow" id="part3"/>
+        <label for="part3"></label>
         <span>Brand</span>
         <ul>
             <li>
@@ -108,7 +114,9 @@
         </ul>
     </div>
 
-    <div>
+    <div class="menuPart">
+        <input type="checkbox" class="checkArrow" id="part4"/>
+        <label for="part4"></label>
         <span>ESRB Rating</span>
         <ul>
             <li>
@@ -135,7 +143,7 @@
     </div>
 </div>
 
-<div>
+<div id="rightContent">
 <div>
     <a href="#">Video Games</a>
     <span>&raquo;</span>
@@ -154,7 +162,7 @@
     <section>
         <a href="#">
             <img src="../images/smt-iv.jpg" />
-            <div >
+            <div>
                 <img src="../images/smt-iv.jpg" />
             </div>
         </a>
@@ -492,7 +500,7 @@
     <a href="#">Next Page &raquo;</a>
 </div>
 </div>
-<div></div>
+<div id="bottomPage"></div>
 </div>
 </body>
 </html>

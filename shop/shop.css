@@ -1,0 +1,119 @@
+#menu li {
+    position: fixed;
+    float: left;
+    top: -5px;
+    list-style-type: none;
+    font-size: small;
+    background-color: limegreen;
+    border-radius: 5px;
+    padding: 1%;
+}
+#menu li a {
+    color: black;
+}
+#item1 {
+    left: 60%;
+}
+#item2 {
+    left: 69%;
+}
+#item3 {
+    left: 74%;
+}
+#total {
+    background-color: aliceblue;
+    padding: 40px;
+    border-left: 2px;
+    border-right: 2px;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-color: darkgray;
+    border-style: solid;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: -10px;
+}
+a {
+    text-decoration: none;
+}
+#title {
+    font-size: 210%;
+    font-weight: bold;
+    font-family: sans-serif;
+    position: absolute;
+    top: 12%;
+    left: 35%;
+}
+#logo {
+    float: left;
+    margin-bottom: 2.5%;
+}
+#leftMenu {
+    clear: both;
+    float: left;
+    width: 20%;
+    padding: 1%;
+    border: 5px;
+    border-radius: 10px;
+    border-color: silver;
+    border-style: solid;
+}
+ul {
+    list-style-type: none;
+}
+section a div {
+  display: none;
+}
+section a div img {
+  width: 300px;
+  height: 300px;
+}
+section:hover a div {
+  display: block;
+  position: absolute;
+  margin-left: 2%;
+}
+#rightContent {
+    float: left;
+    width: 65%;
+    margin-left: 4%;
+    margin-top: 1%;
+}
+#bottomPage {
+    clear: both;
+}
+section a > img {
+    height: auto;
+    width: auto;
+    max-height: 55px;
+    margin-right: 3%;
+    float: left;
+}
+#products li {
+    clear: both;
+    padding: 1% 5% 7% 5%;
+    border-style: none none solid none;
+    border-width: 1px;
+    border-color: silver;
+}
+#products ul {
+    padding: 0;
+}
+#products li:hover {
+    background-color: limegreen;
+}
+.checkArrow:not(checked) + label::after {
+    content: '▶';
+}
+.checkArrow:checked + label::after {
+    content: '▼';
+}
+.menuPart ul {
+    display: none;
+}
+.checkArrow {
+    display: none;
+}
+.checkArrow:checked ~ ul {
+    display: inline-block;
+}
